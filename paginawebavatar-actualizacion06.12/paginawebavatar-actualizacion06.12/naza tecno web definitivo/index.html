@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Proyecto Avatar</title>
+  </head>
+  <body>
+    <div class=" paper container">
+      <header>
+        <img src="imagenes/portadaweb.png" alt="INICIO" id="menu">
+      </header>
+    </div>
+    <div class=" paper container">
+        <a href="#inicio">
+          <img src="imagenes/inicio.png" alt="INICIO" style="width: 120px; ">
+      </a>
+      <a href="#inspiracion">  
+          <img src="imagenes/inspiracion.png" alt="INSPIRACION" style="width: 150px; height: auto;;">
+      </a>
+      
+      <a href="#primera">
+       
+          <img src="imagenes/proceso.png" alt="PROCESO CREATIVO" style="width: 120px; height: auto;">
+      
+      </a>
+
+
+      <a href="#aprendizaje">
+      
+          <img src="imagenes/aprendizaje.png" alt="APRENDIZAJE" style="width: 150px; height: auto;">
+      
+      </a>
+      
+      <a href="#juego">
+       
+          <img src="imagenes/final.png" alt="CREDITOS FINALES" style="width: 120px; height: auto;;">
+       
+      </a>
+
+      <a href="#juego">
+       
+        <img src="imagenes/jugar.png" alt="JUEGO" style="width: 120px; height: auto; ">
+     
+    </a>
+  </div>
+
+    <div id="inicio" class="paper container">
+      <article>
+        <h2 class="titulos">PRESENTACIÓN</h2>
+        <p>
+          Bienvenidos a nuestro proyecto: La creación de un juego basado en
+          "Avatar: La leyenda de Aang".
+        </p>
+    
+        <p>
+          En esta página, exploraremos cómo convertimos una idea inspirada en el capítulo <strong>"La cueva de los enamorados"</strong> en una <strong>novela visual</strong> y, posteriormente, en un <strong>minijuego interactivo</strong>.
+          Acompáñanos en nuestro recorrido creativo y técnico, ¡esperamos que te inspire!
+          Primero presentaremos a las encargadas de convertir esto en algo real:
+        </p>
+
+        <div class="cards-container">
+          <div id="fio" class="card">
+            <div class="card-body">
+              <h4 class="card-title">Gavilan Fiorella</h4>
+              <h5 class="card-subtitle"> Legajo 119039/8</h5>
+              <p class="card-text">Tengo 21 años. Gracias a todo lo aprendido, nació nuestro juego "Siguiendo el corazón". </p>
+            </div>
+            <img class="image-bottom" src="imagenes/fio3.png" alt="Card example image">
+          </div>
+          <div id="naza" class="card">
+            <div class="card-body">
+              <h4 class="card-title">Erbes Yamile Nazarena</h4>
+              <h5 class="card-subtitle"> Legajo 94700/7</h5>
+              <p class="card-text">Tengo 19 años, toco la bateria, tengo 8 gatos y 2 perros.</p>
+            </div>
+            <img class="image-bottom" src="imagenes/naza.png" alt="Card example image">
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div id="inspiracion" class="paper container">
+      <article>
+        <h2 class="titulos">INSPIRACIÓN</h2>
+        <p>
+          Todo comenzó luego de una consigna en clase: crear una novela visual
+          con temática de <strong>dibujos animados</strong>. Queríamos un proyecto que fuera nostálgico y de diversos caminos, planteando al inicio 5 distintos finales que, por limitaciones de tiempo, se redujeron a 3.
+        </p>
+        <img src="imagenes/foto3.jpg" class="float-left" alt="Inspiración" style = "width: 200px; height: auto;" />
+        <p>
+          Elegimos el capítulo <strong>"La cueva de los enamorados"</strong> por su tono romántico y los personajes principales tuvieran diferentes caminos por si mismos, ideal para explorar mecánicas narrativas interactivas y caminos diversos desde el inicio.
+        </p>
+        <p><strong>Creando la narrativa interactiva</strong> </p>
+          <p>Nuestra novela visual termino ofreciendo tres finales posibles, todos inspirados en las decisiones que los personajes podrían tomar dentro de la cueva:</p>
+         <p><ul>
+          <li><strong>Acompañar a Sokka</strong> y encontrarse con los tejones topo, quienes ofrecen pistas importantes para salir.</li>
+          <li>Acompañar a <strong>Aang y Katara, pero sin besarse</strong>, lo que lleva a un enfrentamiento con espíritus guardianes de la cueva.</li>
+          <li><strong>El beso de Aang y Katara</strong>, cuyo poder permite abrir el camino secreto gracias a confiar en el amor.</li>
+         </ul> 
+          </p>
+        
+      </div>  
+      <div id="primera" class="paper container">
+        <article >  <h2  class="titulos">PROCESO CREATIVO</h2>
+
+            <div class="row"> 
+                <div class="collapsible">
+                  <input id="collapsible1" type="checkbox" name="collapsible">
+                  <label for="collapsible1">Primera Etapa</label>
+                  <div class="collapsible-body">
+                      <p>
+                          <strong></strong>En principio, realizamos un diagrama de flujo para tener una base sólida y saber cómo guiarnos. Para lograr llegar al resultado de la novela, utilizamos p5.js, el cual, está basado en JavaScript y creamos una estructura que combinó estados, eventos y diálogos. Aunque no usamos programación orientada a objetos en esta etapa, manejamos flujos narrativos, diseñamos interacciones atractivas y tuvimos un primer acercamiento al sonido.
+                      </p>
+                      <img src="imagenes/Diagrama.png" alt="Diagrama del desarrollo del videojuego" style="width:100%; max-width:600px; display: block; margin: auto;">
+                  </div>
+              </div>
+
+              <div class="collapsible">
+                <input id="collapsible2" type="checkbox" name="collapsible">
+                <label for="collapsible2">Segunda Etapa (POO)</label>
+                <div class="collapsible-body">
+                  <p> <strong></strong>En el juego ya nos metimos por primera vez con programación orientada a objetos (POO) para forjar las mecánicas y estructura de un juego simple, pero bien hecho. Trabajamos en el desarrollo de un minijuego donde Aang debe recoger corazones mientras evita obstáculos para lograr el objetivo final
+                  </strong> </p>  
+                </div>
+              </div>
+
+              <div class="collapsible">
+                <input id="collapsible3" type="checkbox" name="collapsible">
+                <label for="collapsible3">Tercera Etapa </label>
+                <div class="collapsible-body">
+                  <p> <strong></strong>Finalmente, una vez teníamos la estructura hecha, implementamos un diseño de botones y entorno acorde al escenario de la novela visual (cueva). Ambas etapas nos permitieron aprender, aplicar diferentes enfoques y en formato interactivo. Este proceso nos ayudó a entender mejor el desarrollo de proyectos creativos e interactivos, desde la idea inicial hasta su ejecución final. </strong> </p>  
+                  <img src="imagenes/juegoPortada.png" alt="Diagrama del desarrollo del videojuego" style="width:100%; max-width:600px; display: block; margin: auto;">
+                </div>
+                
+      </article>
+    </div>
+
+    <div id="aprendizaje" class="paper container">
+      <article>
+        <h2 class="titulos">APRENDIZAJE</h2>
+        <p>
+          Profundizamos en conceptos, pusimos en práctica todo lo aprendido y supimos resolver los errores que surgieron en el camino. El hecho de trabajar en equipo fue una experiencia más del aprendizaje, donde tuvimos que colaborar en conjunto y coordinar para llegar al resultado deseado. Sin duda vamos a seguir aprendiendo y mejorando nuestras habilidades.  
+        </p>
+      </article>
+    </div>
+
+    <div id="juego" class="paper container">
+      <article>
+        <h2 class="titulos">JUEGO FINAL</h2>
+        <p class= "programación" >Aquí presentamos el resultado de nuestro esfuerzo y la aplicación visual de lo aprendido: El juego de "Avatar: Siguiendo el corazón". Este proyecto refleja nuestra dedicación, donde fusionamos narrativa, diseño y programación para crear una experiencia interactiva. A través de este juego, no solo exploramos mecánicas de juego, también nuestra capacidad para resolver. Este resultado es la culminación de todo lo aprendido y una muestra de lo que podemos lograr como equipo.  </p>
+        <div class="row flex-spaces child-borders">
+          <label class="paper-btn margin" for="modal-1">
+            <img src="imagenes/jugar.png" alt="Jugar Videojuego" style="width: 150px; height: auto;">
+          </label>
+          <a href="#menu" class="btn-img">
+            <img src="imagenes/volver.png" alt="Volver">
+        </a>
+        </div>
+        <input class="modal-state" id="modal-1" type="checkbox">
+        <div class="modal">
+          <label class="modal-bg" for="modal-1"></label>
+          <div class="modal-body">
+            <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="480"></iframe>
+          </div>
+        </div>
+      </article>
+    </div>
+
